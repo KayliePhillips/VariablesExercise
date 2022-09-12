@@ -14,9 +14,11 @@ namespace VariablesExercise
             double height = 67.2;
             decimal costofDress = 95.26m;
 
-            Console.WriteLine($"My name is {firstName} and my middle initial is {middleInitial}.\n I am {height} inches tall." +
-                $"My dress costs {costofDress}.\n  True or False - Am I married? {isMarried}");
+            Console.WriteLine($"My name is {firstName} and my middle initial is {middleInitial}.\nI am {height} inches tall." +
+                $"My dress costs ${costofDress}.\nTrue or False - Am I married? {isMarried}");
 
+            Console.WriteLine();
+            Console.WriteLine();
 
             string catName = "Nala";
             int catAge = 7;
