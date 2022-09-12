@@ -6,6 +6,18 @@ namespace VariablesExercise
     {
         static void Main(string[] args)
         {
+            //Practice
+            string firstName = "Kaylie";
+            int personAge = 35;
+            char middleInitial = 'R';
+            bool isMarried = true;
+            double height = 67.2;
+            decimal costofDress = 95.26m;
+
+            Console.WriteLine($"My name is {firstName} and my middle initial is {middleInitial}.\n I am {height} inches tall." +
+                $"My dress costs {costofDress}.\n  True or False - Am I married? {isMarried}");
+
+
             string catName = "Nala";
             int catAge = 7;
             char Excited = '!';
